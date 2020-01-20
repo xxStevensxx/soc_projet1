@@ -1,0 +1,67 @@
+*{
+  font-family: "comic sans ms";
+}
+
+#intro{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #7451EB;
+  color: white;
+}
+
+#left_side_intro{
+  grid-column-start: 1;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+#left_side_intro > h1{
+  margin-bottom: 0;
+}
+
+#right_side_intro{
+  grid-column-tart: 2;
+  margin: 0 auto;
+  padding:  0 auto;
+}
+
+#right_side_intro > figure{
+  margin: 0 auto;
+  padding:  0 auto;
+}
+
+#right_side_intro >figure > img{
+  width: 250px;
+  height: 250px;
+}
+
+.underline{
+  margin-top: 2%;
+  width: 37.5%;
+  color: #003668 !important;
+  background: #00E9A0 !important;
+  font-weight: bold;
+}
+/* ************************************************ */
+#competances{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#left_side_competances{
+  margin-top: 15% !important;
+  grid-template-columns: 1;
+  padding: 0 auto;
+  margin: 0 auto;
+  color: #003668;
+}
+
+#right_side_competances{
+  grid-template-columns: 2;
+  padding: 0 auto;
+  margin: 0 auto;
+}
+
+.tabulation{
+  margin-left: 5%;
+}
