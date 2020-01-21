@@ -1,0 +1,39 @@
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  /* Styles pour cette Media Queries */
+  #intro{
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #right_side_intro >figure > img{
+    margin-top: 20%;
+    width: 550px;
+    height: 550px;
+    border: 10px solid #00EDA2;
+  }
+
+
+  #left_side_intro{
+    grid-row-start: 2;
+    margin: 0;
+    text-align: center;
+  }
+
+  #txt-intro{
+    margin-top:0;
+    margin-bottom:0;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .underline{
+    margin-left:30% !important;
+    text-align: center;
+    width: 40%;
+    font-size: 45px !important;
+  }
+
+  #right_side_intro{
+    grid-row-start: 1;
+  }
+}
